@@ -1,6 +1,7 @@
 var clicks = 0;
+var clicksEl = document.getElementById("clicks");
 function onClick() {
     clicks += 1;
-    document.getElementById("clicks").innerHTML = clicks;
+    clicksEl.innerHTML = clicks;
 
 };
